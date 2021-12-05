@@ -8,6 +8,7 @@
 
 - Tüm hatalarını tamamladım sanırım başka hata görürsem yapacağım, düzenliceğim.
 
+![image](https://user-images.githubusercontent.com/92666466/144743723-a35a8f79-f9fb-4414-8cc7-e0653a54126c.png)
 ![image](https://user-images.githubusercontent.com/92666466/144743661-ec2e542d-21f7-479e-90e1-e55157d78cdc.png)
 ![image](https://user-images.githubusercontent.com/92666466/144743664-e48e4735-261b-42a3-9bdd-5623ea0648e8.png)
 ![image](https://user-images.githubusercontent.com/92666466/144743670-5bb8a60c-5bf5-4367-8af2-db743d0be825.png)
