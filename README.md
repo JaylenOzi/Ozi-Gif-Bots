@@ -1,7 +1,5 @@
 # Ozi-Gif-Bots
 
-Not: Button Rol sistemi eklenicektir az sonra sizlerle
-
 - Hataları varsa düzenlerim vaktim olunca, starlarınızı bekliyorum yeni github hesabım.
 - Sizlerle geliştirmiş olduğum botlardan biriyle tanıştırmak istiyorum.. 
 - Gif Sunucu Kurma , Button Sistemleri , Gif Stats , Avatar/Banner Komutları , Moderasyon , Link Engel , Random pp/gif, Mesaj Log mevcuttur.
