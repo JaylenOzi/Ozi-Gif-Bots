@@ -232,6 +232,49 @@ ozi.on('guildMemberAdd', async(member) => {
 member.roles.add(ayarlar.otorol)
 })
 ////////////   oto rol ////////////
+ozi.on('ready', () => {
+    ozi.ws.on('INTERACTION_CREATE', async interaction => {
+        
+        let name = interaction.data.custom_id
+
+        let GameMap = new Map([
+            ["mavi",`${ayarlar.mavirol}`],
+            ["kirmizi",`${ayarlar.kırmızırol}`],
+            ["sari",`${ayarlar.sarırol}`],
+            ["yesil",`${ayarlar.yesilrol}`],
+            ["siyah",`${ayarlar.siyahrol}`],
+
+            ["banner",`${ayarlar.banner}`],
+            ["nfsw",`${ayarlar.nfsw}`],
+        ])
+
+        let member = await ozi.guilds.cache.get(ayarlar.guildID).members.fetch(interaction.member.user.id)
+        if(!GameMap.has(name) || !member) return;
+
+        let role = GameMap.get(name)
+        let returnText;
+
+        if(member.roles.cache.has(role)){
+            await member.roles.remove(role)
+            returnText = `Rol üzerinizden alındı`
+        }else{
+            await member.roles.add(role)
+            returnText = `Rol üzerinize verildi`
+
+        }
+        
+        ozi.api.interactions(interaction.id, interaction.token).callback.post({
+            data: {
+                type: 4,
+                data: {
+                    content: returnText,
+                    flags: "64" // Gizli reply atmak için girmeniz gereken flag
+                }
+            }
+        })
+        
+    });
+});
 
 console.log('Bot Başarıyla Aktif Edildi')
 ozi.login(ayarlar.token).catch(err=> console.error('Tokeni Yenileyip Tekrar Girin'));// çırak ozi is basında
