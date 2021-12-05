@@ -1,0 +1,30 @@
+{
+  "name": "jaylen-ozi-gif",
+  "version": "0.0.1",
+  "author": "jaylen-ozi",
+  "main": "ozi.js",
+  "scripts": {
+    "start": "node ozi.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.1",
+    "discord-buttons": "^2.4.1",
+    "discord-logs": "^1.9.0",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "quick.db": "^7.0.0b22",
+    "request": "^2.88.2"
+    },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

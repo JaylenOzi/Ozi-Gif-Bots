@@ -1,0 +1,37 @@
+{
+  "sahip": "612688335944679600",
+  "prefix": ".",
+  "token": "",
+  "botDurum": "",
+
+  "sunucuadı": "",
+  "kategoriler": ["","","","","","","","","","","","","",""],
+  "giflog": "",
+  "silinenmesajlog": "",
+  "düzenlenenmesajlog": "",
+  "banlog": "",
+
+  "ozirandompp": "",
+  "ozirandomgif": "",
+
+  "yetkilirole": [
+    ""
+  ],  
+  "otorol": "",
+  "viprole": "",
+
+"roles": {
+  "mavirol": "",
+  "kırmızırol": "",
+  "sarırol": "",
+  "yesilrol": "",
+  "siyahrol": "",
+
+  "banner": "",
+  "nfsw": ""
+},
+
+  "greentik": "<a:greentik:emoji-id>",
+  "redcarpı": "<a:redcarpı:emoji-id>"
+
+}
