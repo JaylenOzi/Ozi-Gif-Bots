@@ -202,7 +202,7 @@ message.guild.roles.create({ data: { name: 'Muted' }, reason: 'Ozi' }).then(role
     });
 
 ///// kanallar ////
-message.guild.channels.create('discord.gg/shew', {type: 'voice'}).then(a => a.setParent(parent.id) && a.setUserLimit(5));
+message.guild.channels.create('discord.gg/shew', {type: 'voice'});
 
 message.guild.channels.create('⚡ Shéw', {type: 'category'}).then(parent => {
 message.guild.channels.create('🎀・welcome', {type: 'text'}).then(c => c.setParent(parent.id));
