@@ -3,6 +3,7 @@
 - Hataları varsa düzenlerim vaktim olunca, starlarınızı bekliyorum yeni github hesabım.
 - Sizlerle geliştirmiş olduğum botlardan biriyle tanıştırmak istiyorum.. 
 - Gif Sunucu Kurma , Button Sistemleri , Gif Stats , Avatar/Banner Komutları , Moderasyon , Link Engel , Random pp/gif, Mesaj Log mevcuttur.
+- Size bir tane Gif server sablon bırakıyorum <3 https://discord.new/Rhn8XmKP8VJS
 
 # Eksik Kalan ve Tamamlanmamış Yerler
 
